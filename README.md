@@ -51,6 +51,14 @@ A modern, feature-rich task management application built with React Native, Expo
 - **Build Tool**: Babel
 - **Package Manager**: npm/yarn
 
+## Screenshots 
+<img width="1080" height="2400" alt="Screenshot_1777573560" src="https://github.com/user-attachments/assets/f1be7f49-07a2-4c11-b7f6-004082909fcd" />
+<img width="1080" height="2400" alt="Screenshot_1777573565" src="https://github.com/user-attachments/assets/24eecaa1-fc03-4228-a620-961f16d542d3" />
+<img width="1080" height="2400" alt="Screenshot_1777573589" src="https://github.com/user-attachments/assets/a9e245fd-5995-4cd0-a006-a6322d5bc635" />
+<img width="1080" height="2400" alt="Screenshot_1777573614" src="https://github.com/user-attachments/assets/9c77a29d-e9f0-47ae-b480-ed913c775165" />
+
+
+
 ## 📁 Project Structure
 
 ```
@@ -300,7 +308,7 @@ For testing purposes, create an account using:
 - Railway account (https://railway.app)
 - GitHub account with repository access
 
-### Backend Deployment (if you have backend API)
+### Backend Deployment 
 
 1. **Push code to GitHub**:
 ```bash
@@ -341,103 +349,8 @@ git push origin main
 npm run build:web
 ```
 
-2. **Deploy to Railway**:
-   - Create static server configuration
-   - Upload `web-build` directory
-   - Configure domain
 
-### Production Build Checklist
-- [ ] Firebase rules are properly configured
-- [ ] Environment variables are set
-- [ ] CORS is configured correctly
-- [ ] MongoDB connection pooling is optimized
-- [ ] Error handling is comprehensive
-- [ ] Logging is enabled
-- [ ] Rate limiting is configured
-- [ ] Security headers are set
-- [ ] SSL certificate is valid
-- [ ] Database backups are scheduled
 
-## 🐛 Troubleshooting
-
-### Firebase Connection Issues
-- Verify Firebase configuration
-- Check Firestore rules
-- Ensure internet connectivity
-
-### Build Errors
-- Clear cache: `npm cache clean --force`
-- Delete node_modules and reinstall
-- Clear Expo cache: `expo start --clear`
-
-### Android Issues
-- Update Android SDK
-- Clear gradle cache: `cd android && ./gradlew clean`
-
-### iOS Issues
-- Clear pod cache: `cd ios && rm -rf Pods && pod install`
-
-## 📝 Usage Guide
-
-### Creating a Task
-1. Tap the "+" button
-2. Enter task details
-3. Select priority and due date
-4. Tap "Create Task"
-
-### Completing a Task
-1. Tap the checkbox next to a task
-2. Task moves to completed section
-
-### Deleting a Task
-1. Swipe left on a task
-2. Confirm in dialog
-
-### Searching Tasks
-1. Tap search icon
-2. Enter query
-3. Results filter in real-time
-
-### Filtering Tasks
-- All: Show all tasks
-- Active: Show incomplete tasks
-- Completed: Show completed tasks
-- Overdue: Show overdue tasks
-
-## 🔔 Notifications (Future)
-- Task due soon reminders
-- Overdue task alerts
-- Task assignment notifications
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push branch: `git push origin feature/name`
-5. Open Pull Request
-
-## 📄 License
-
-MIT License - see LICENSE file
-
-## 📞 Support
-
-- Issues: GitHub Issues
-- Email: support@taskapp.com
-
-## 🎯 Future Roadmap
-
-- [ ] Team collaboration
-- [ ] Email notifications
-- [ ] Calendar view
-- [ ] Recurring tasks
-- [ ] Task attachments
-- [ ] Analytics dashboard
-- [ ] Google Calendar integration
-- [ ] Mobile app stores
-
----
 
 **Version**: 1.0.0  
 **Last Updated**: April 2026
